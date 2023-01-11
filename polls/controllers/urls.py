@@ -1,6 +1,6 @@
 from django.urls import path
-import polls.views.views as pollController
+import polls.views.views as poll_controller
 
 urlpatterns = [
-    path("", pollController.index, name="index"),
+    path("", poll_controller.index, name="index"),
 ]
